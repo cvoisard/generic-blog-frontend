@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      id: 1,
+      title: "post1",
+      content: "test",
+      imageSoure: "./assests/images/post1.png"
+    },
+    {
+      id: 2,
+      title: "post2",
+      content: "test2",
+      imageSoure: "./assests/images/post2.png"
+    },
+    {
+      id: 3,
+      title: "post3",
+      content: "test3",
+      imageSoure: "./assests/images/post3.png"
+    }
+  ]
+}
