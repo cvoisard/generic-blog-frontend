@@ -1,0 +1,6 @@
+<div *ngFor="let post of (posts$ | async)?.posts">
+  <h1>post: {{post.id}}</h1>
+  <h2>{{post.title}}</h2>
+  {{post.content}}
+  {{post.imageSource}}
+</div>
