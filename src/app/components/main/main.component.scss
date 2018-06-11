@@ -1,0 +1,29 @@
+.navbar {
+    background: none;
+    height: 30px;
+    padding: 5px;
+    ul {
+        text-decoration: none;
+        color: rgba(255,255,255,0.4);
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        li {
+            padding: 10px;
+            margin: 10px 15px 0 0;
+            text-align: center;
+        }
+    }
+}
+
+.jumbotron {
+    background: url('../../../assets/images/kenny.jpg');
+    background-size: 100% 110%;
+    height: 110vh;
+    margin-top: -40px;
+    h1 {
+        color: white;
+        font-size: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 15px 0 0 50px;
+    }
+}
