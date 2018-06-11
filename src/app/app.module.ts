@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { PostComponent } from './components/post/post.component';
+import { PostsComponent } from './components/posts/posts.component';
 
 import { PostService } from './services/post-service.service';
 import { MainComponent } from './components/main/main.component';
@@ -13,7 +14,8 @@ import { MainComponent } from './components/main/main.component';
   declarations: [
     AppComponent,
     PostComponent,
-    MainComponent
+    MainComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
