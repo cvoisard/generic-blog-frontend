@@ -1,7 +1,14 @@
 .navbar {
     background: none;
-    height: 30px;
-    padding: 5px;
+    height: 10px;
+    padding: 30px;
+    .navbar-brand {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
     ul {
         text-decoration: none;
         color: rgba(255,255,255,0.4);
@@ -11,6 +18,19 @@
             padding: 10px;
             margin: 10px 15px 0 0;
             text-align: center;
+            display: inline-block !important;
+            a {
+                color: rgba(255,255,255,0.4);
+                :hover {
+                    color: rgba(177,120,80,1) !important;
+                }
+            }
+        }
+    }
+    button {
+        .glyphicon.glyphicon-search {
+            color: rgba(255,255,255,0.4);
+            font-size: 15px;
         }
     }
 }
@@ -19,11 +39,11 @@
     background: url('../../../assets/images/kenny.jpg');
     background-size: 100% 110%;
     height: 110vh;
-    margin-top: -40px;
+    margin-top: -100px;
     h1 {
         color: white;
         font-size: 50px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 15px 0 0 50px;
+        margin: 30px 0 0 50px;
     }
 }
